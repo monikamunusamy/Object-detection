@@ -286,5 +286,4 @@ Non-Maximum Suppression — removes duplicate boxes when the model finds the sam
 | [FastAPI](https://fastapi.tiangolo.com/) | REST API |
 | [Docker](https://www.docker.com/) | Containerised deployment |
 
-m/in/yourprofile) · [GitHub](https://github.com/monikamunusamy)
 
