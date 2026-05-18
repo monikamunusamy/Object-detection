@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Model weights (large files — use Git LFS or share via link)
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# Data (add your own dataset locally, don't commit raw images)
+data/custom_dataset/
+data/sample_images/*.jpg
+data/sample_images/*.png
+
+# Results
+results/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env vars
+.env

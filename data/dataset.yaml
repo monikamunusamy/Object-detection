@@ -1,0 +1,20 @@
+# Dataset configuration for custom YOLOv8 training
+# Replace paths and class names with your own dataset
+
+path: data/custom_dataset   # Root directory
+train: images/train          # Relative to path
+val:   images/val
+test:  images/test           # Optional
+
+# Number of classes
+nc: 3
+
+# Class names (edit these to match your dataset)
+names:
+  0: person
+  1: car
+  2: bicycle
+
+# ─── Download a public dataset (example: COCO128) ───────────────────────────
+# Uncomment to auto-download:
+# download: https://ultralytics.com/assets/coco128.zip
